@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  background-image: url(assets/font.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+* {
+  font-family: "Pacifico", cursive;
+  color: rgb(253, 134, 154);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    80deg,
+    #ffc7d1,
+    #ffd5b8,
+    #fffbd4,
+    #e2ffd9,
+    #d8f3ff,
+    #d6dcff,
+    #ebd4ff,
+    #ffd6f0
+  );
+  padding: 20px;
+  margin: 20px 0;
+  gap: 20px;
+  border-radius: 3px;
+}
+.btn button{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
