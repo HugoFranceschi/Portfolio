@@ -19,8 +19,22 @@
 .lien div{
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 .img{
   width: 50px;
+}
+.lien {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 15px;
+
+}
+
+.presentation{
+  background-color: rgba(255, 255, 255, 0.349);
+  border: solid 2px pink;
+  padding: 25px;
+  border-radius: 5px;
 }
