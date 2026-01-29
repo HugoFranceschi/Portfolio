@@ -1,52 +1,46 @@
-.nom {
-  background-color: rgba(255, 255, 255, 0.349);
-  border: solid 2px pink;
-  padding: 25px;
-  border-radius: 5px;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  background-image: url(assets/font.jpg);
+  background-size: cover;
   display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.pp {
-  border-radius: 50%;
-  width: 200px;
+  justify-content: center;
+  height: 100vh;
 }
 
-.taille {
-  width: 57px;
+* {
+  font-family: "Pacifico", cursive;
+  color: rgb(253, 134, 154);
 }
 
-.lien div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.img {
-  width: 50px;
-}
-.lien {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  gap: 15px;
-}
-
-.presentation {
-  background-color: rgba(255, 255, 255, 0.349);
-  border: solid 2px pink;
-  padding: 25px;
-  border-radius: 5px;
-}
-h3 {
-  text-align: center;
-  margin-top: 0;
-}
-.presentation p {
-  margin-bottom: 0;
-}
-
-.niveau {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(
+    80deg,
+    #ffc7d1,
+    #ffd5b8,
+    #fffbd4,
+    #e2ffd9,
+    #d8f3ff,
+    #d6dcff,
+    #ebd4ff,
+    #ffd6f0
+  );
+  padding: 20px;
+  margin: 20px 0;
+  gap: 20px;
+  border-radius: 3px;
+  width: 589px;
+}
+.btn button{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
 }
