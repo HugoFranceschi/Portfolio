@@ -1,0 +1,11 @@
+.comment {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.349);
+  border: solid 2px pink;
+  padding: 25px;
+  border-radius: 5px;
+}
+.comment img {
+  width: 150px;
+}

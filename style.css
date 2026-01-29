@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
+@keyframes OMG {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
 body {
   margin: 0;
   background-image: url(assets/font.jpg);
@@ -15,9 +25,23 @@ body {
 }
 
 main {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding: 20px;
+  margin: 20px 0;
+  gap: 20px;
+  width: 589px;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
   background: linear-gradient(
     80deg,
     #ffc7d1,
@@ -29,18 +53,30 @@ main {
     #ebd4ff,
     #ffd6f0
   );
-  padding: 20px;
-  margin: 20px 0;
-  gap: 20px;
-  border-radius: 3px;
-  width: 589px;
+  /*background: linear-gradient(
+    80deg,
+    hsl(0, 100%, 89%),
+    hsl(45, 100%, 89%),
+    hsl(90, 100%, 89%),
+    hsl(135, 100%, 89%),
+    hsl(170, 100%, 89%),
+    hsl(215, 100%, 89%),
+    hsl(260, 100%, 89%),
+    hsl(315, 100%, 89%)
+  );*/
+  width: 100%;
+  height: 100%;
+  animation: OMG 1s infinite linear;
+  border-radius: 8px;
+
 }
-.btn button{
+
+.btn button {
   background-color: transparent;
   border: none;
   font-size: 20px;
 }
 
-a{
+a {
   text-decoration: none;
 }
