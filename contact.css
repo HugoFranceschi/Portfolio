@@ -9,3 +9,34 @@
 .comment img {
   width: 150px;
 }
+
+.img {
+  width: 50px;
+}
+
+.liste {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.liste div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Nymphali {
+  width: 80%;
+}
+
+.lien_amis {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+.boykisser {
+  width: 40px;
+}
